@@ -1,0 +1,22 @@
+[
+  {
+    "CLASSNAME": "OutgoingTransfer",
+    "INSTANCE": {
+      "sender": "Alan",
+      "recipient": "Rekan",
+      "date": "20.11.2023",
+      "amount": 500.0,
+      "description": "Outgoing Transfer"
+    }
+  },
+  {
+    "CLASSNAME": "OutgoingTransfer",
+    "INSTANCE": {
+      "sender": "Alan",
+      "recipient": "Rekan",
+      "date": "20.11.2023",
+      "amount": 600.0,
+      "description": "ifif"
+    }
+  }
+]

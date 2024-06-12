@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: PrivateBankTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 5, Skipped: 0, Time elapsed: 0.059 s <<< FAILURE! - in PrivateBankTest
+TestCreateAccount  Time elapsed: 0.043 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+testacc (1 failure)
+	bank.exceptions.AccountAlreadyExistsException: Exception thrown: Account existiert schon.
+	at PrivateBankTest.TestCreateAccount(PrivateBankTest.java:41)
+
+TestEquals  Time elapsed: 0.006 s  <<< ERROR!
+bank.exceptions.AccountAlreadyExistsException: Exception thrown: Account existiert schon.
+	at PrivateBankTest.TestEquals(PrivateBankTest.java:127)
+
+TestCreateAccountWithTransactions  Time elapsed: 0.002 s  <<< ERROR!
+bank.exceptions.AccountAlreadyExistsException: Exception thrown: Account existiert schon.
+	at PrivateBankTest.TestCreateAccountWithTransactions(PrivateBankTest.java:54)
+
+TestRemoveTransaction  Time elapsed: 0.002 s  <<< ERROR!
+bank.exceptions.AccountAlreadyExistsException: Exception thrown: Account existiert schon.
+	at PrivateBankTest.TestRemoveTransaction(PrivateBankTest.java:96)
+
+TestAddTransactions  Time elapsed: 0.002 s  <<< ERROR!
+bank.exceptions.AccountAlreadyExistsException: Exception thrown: Account existiert schon.
+	at PrivateBankTest.TestAddTransactions(PrivateBankTest.java:73)
+
+TestContainsTransaction  Time elapsed: 0.001 s  <<< ERROR!
+bank.exceptions.AccountAlreadyExistsException: Exception thrown: Account existiert schon.
+	at PrivateBankTest.TestContainsTransaction(PrivateBankTest.java:115)
+
